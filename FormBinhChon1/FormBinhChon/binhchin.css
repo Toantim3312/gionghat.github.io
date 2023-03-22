@@ -1,0 +1,26 @@
+.head{
+   width: auto;
+   height: 50px;
+   background: rgb(137, 116, 240);
+   padding: 20px;
+}
+h2{
+   margin-top:10px;
+   text-align: center;
+   text-decoration:dashed;
+   text-decoration:underline;
+   color: aliceblue;
+}
+.binhchon1{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 23%;
+   height: 25%;
+   margin-top: 20px;
+   
+   
+}
+.thisinh1{
+text-align: center;
+}

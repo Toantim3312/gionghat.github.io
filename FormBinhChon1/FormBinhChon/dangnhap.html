@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="dangnhap.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+    <title>Form login unitop.vn</title>
+</head>
+<body>
+    
+   
+        <div id="wrapper">
+            
+        <form action="#" id="form-login">
+            <h1 class="form-heading">Bình Chọn Giọng Hát Việt</h1>
+            <div class="form-group">
+                <i class="far fa-user"></i>
+                <input type="text" class="form-input" placeholder="Tên đăng nhập">
+            </div>
+            <div class="form-group">
+                <i class="fas fa-key"></i>
+                <input type="password" class="form-input" placeholder="Mật khẩu">
+                <div id="eye">
+                    <i class="far fa-eye"></i>
+                </div>
+            </div>
+        <div>
+           <a href="binhchon.html"><input type="submit"  value="Đăng nhập"  class="form-submit"></a> 
+            <input type="submit" value="Đăng nhập Facebook" class="form-submits">
+        </form>
+
+        <div class="facebook-login">
+
+            <div class="facebook-logo">
+                <img src="fb_logo.png" alt="facebook logo" class="fb-logo">
+            </div>
+            <div class="fb username">
+                <label for="facebook-username" class="username"> Tên đăng nhập  </label>
+                <input type="text" class="facebook-username" placeholder="Nhập tên đăng nhập">
+            </div>
+            <div class="fb password">
+                <label for="facebook-password" class="password" > Mật khẩu </label>
+                <input type="password" class="facebook-password" placeholder="Nhập mật khẩu">
+
+
+            </div>
+
+            <div class="fb log-in">
+               <button class="btn-log"> Đăng 
+                    nhập </button>
+    
+            </div>
+        </div>
+    </div>
+    <div class="overlay"></div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyCzFlCOoWC1NRt7vJuLLw6aWEkZql19bxs",
+      authDomain: "fb-log-930e8.firebaseapp.com",
+      projectId: "fb-log-930e8",
+      storageBucket: "fb-log-930e8.appspot.com",
+      messagingSenderId: "392083942677",
+      appId: "1:392083942677:web:d84d64d4ce489a893ecd1c"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+    console.log(app)
+  </script>
+<script src="app.js"></script>
+<script src="firebase.js" type="module"></script>
+</html>
